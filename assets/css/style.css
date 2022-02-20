@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+*{
+    font-family: "Open Sans", "icones" , sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+.cabecalho{
+    width: 100%;
+    height: auto;
+
+
+
+    background-color: #003559;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.cabecalho-conteudo{
+   
+}
+
+.cabecalho-logo{
+    background-image:url(../img/WhatsApp\ Image\ 2022-02-20\ at\ 20.10.23.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    width: 100vw;
+    height: 200px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: left;
+    padding: 10px;
+}
+.cabecalho-titulo{
+    color: aqua;
+    border: 2px solid black;
+    display: none;
+}
+.img-logo{
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.cabecalho-conteudo{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+}
+.menu{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-bottom: 5px solid #003559;
+}
+
+.menu nav{
+    margin-left: 10px;
+}
+.menu nav a{
+    color: black;
+
+}
+.titulo-pagina{
+    align-self: flex-start;
+    margin: 15px 0 ;
+
+}.titulo-pagina:first-child{
+    margin-top: 0;
+}
+
+.conteudo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:15px;
+    background-color: #ffffff;
+}
+
+.cartao{
+    width: 100%;
+    background-color: #ffffff;
+}
+.cartao-titulo{
+    margin-bottom:10px;
+}
+.cartao-img{
+    width: 100%;
+    height: auto;
+}
+
+.cartao-social{
+    width: 75%;
+    height: 30px;
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+.cartao-perfil{
+    color: #95999C;
+    align-items: center;
+}
+.cartao-info{
+    display: flex;
+    align-items: center;
+    color: #95999C;
+    
+}
+.cartao-info-tempo::before{
+    content: "\e90c";
+    margin-right: 8px;
+    align-items: center;
+}
+
+.conteudo-sessao{
+    font-size: 1.1rem;
+    font-weight: 200;
+    line-height: 28px;
+    text-align: left;
+}
