@@ -142,7 +142,7 @@ body{
 
 .conteudo-container-contatos{
     background-color: #ffffff;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .conteudo-container-contatos .cartao{
     background-color: transparent;
