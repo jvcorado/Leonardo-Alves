@@ -44,8 +44,8 @@ body{
     padding: 10px;
 }
 .cabecalho-titulo{
-    color: rgb(255, 255, 255);
-    opacity: 70%;
+    color: #ffffff;
+    display: none;
     border-bottom: 5px solid black;
     
 }
@@ -129,11 +129,22 @@ body{
 .conteudo-container-sobre .cartao-titulo{
     color: #000000;
 }
+.conteudo-container-sobre .titulo-pagina-detalhe{
+    border-left: 5px solid #ffffff;
+}
 .conteudo-container-sobre .conteudo-sessao{
     color: #000000;
 }
 .conteudo-container-sobre .cartao-social{
     width: 330px;
+}
+
+.conteudo-container-contatos .cartao-img-contatos{
+
+}
+
+.conteudo-container-projetos .cartao-img-projetos{
+    margin-left: 20%;
 }
 
 .cartao{
