@@ -113,7 +113,14 @@ body{
     padding:15px;
     background-color: #ffffff;
 }
-
+.conteudo-container-sobre{
+    background-color:#003559;
+    color: #ffffff;
+}
+.conteudo-container-sobre .conteudo-sessao{
+    color: #000000;
+    background-color: transparent;
+}
 .cartao{
     width: 100%;
     background-color: #ffffff;
