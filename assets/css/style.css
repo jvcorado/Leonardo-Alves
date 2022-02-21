@@ -100,6 +100,10 @@ body{
     border-left: 5px solid black;
     padding-left: 5px;
 }
+.titulo-pagina-detalhe-contato{
+    align-self: center;
+    border: none;
+}
 
 .conteudo-container{
     display: flex;
@@ -132,7 +136,6 @@ body{
     width: 60%;
     object-fit: contain;
 }
-
 .cartao-social{
     width: 75%;
     height: 30px;
@@ -166,6 +169,40 @@ body{
     line-height: 28px;
     text-align: left;
 }
+.cartao-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    display: flex;
+    width: 80%;
+    height: 50px;
+    background-color: #0353A4;
+    margin: 10px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left:28%;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    box-shadow: 2px 2px 5px #444;
+}
+button:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+button a{
+    color: white;
+    cursor: pointer;
+}
+button img{
+    margin-right: 10px;
+
+}
+
 footer{
     padding: 10px;
     width: 100%;
