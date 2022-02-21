@@ -13,6 +13,9 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+body{
+    background-color: #0353A4;
+}
 .cabecalho{
     width: 100%;
     height: auto;
