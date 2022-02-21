@@ -139,6 +139,15 @@ body{
     width: 330px;
 }
 
+
+.conteudo-container-contatos{
+    background-color: #003559;
+    color: white;
+}
+.conteudo-container-contatos .cartao{
+    background-color: transparent;
+    
+}
 .conteudo-container-contatos .cartao-img-contatos{
 
 }
@@ -150,6 +159,7 @@ body{
 .cartao{
     width: 100%;
     background-color: #ffffff; 
+    margin-bottom: 50px;
 }
 .cartao-subtitulo{
     color:#0353A4;
@@ -225,7 +235,7 @@ button{
     color: white;
     font-size: 1rem;
     font-weight: 300;
-    box-shadow: 2px 2px 5px #444;
+    box-shadow: 1px 1px 5px rgb(255, 255, 255);
 }
 button:hover{
     opacity: 70%;
