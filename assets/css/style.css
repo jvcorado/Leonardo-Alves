@@ -132,9 +132,13 @@ body{
     border-radius: 20px;
 }
 .cartao-img-projetos{
- 
     width: 60%;
     object-fit: contain;
+    margin: auto;
+}
+.cartao-img-contatos{
+    width: 80%;
+    margin: 20px;
 }
 .cartao-social{
     width: 75%;
