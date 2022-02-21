@@ -33,6 +33,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
     
     width: 100vw;
     height: 200px;
@@ -70,7 +71,7 @@ body{
     justify-content: space-evenly;
     background-color: white;
     border-bottom: 5px solid #000000;
-    background-color: #003559;
+   
 }
 
 .menu nav{
