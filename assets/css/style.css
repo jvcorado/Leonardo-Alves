@@ -116,8 +116,8 @@ body{
     background-color: #ffffff;
 }
 .conteudo-container-sobre{
-    background-color:#003559;
-    color: #ffffff;
+    background-color:#ffffff;
+    color: #000000;
     
 }
 .conteudo-container-sobre .cartao{
@@ -130,7 +130,7 @@ body{
     color: #000000;
 }
 .conteudo-container-sobre .titulo-pagina-detalhe{
-    border-left: 5px solid #ffffff;
+    border-left: 5px solid #003559;
 }
 .conteudo-container-sobre .conteudo-sessao{
     color: #000000;
@@ -141,7 +141,7 @@ body{
 
 
 .conteudo-container-contatos{
-    background-color: #003559;
+    background-color: #ffffff;
     color: white;
 }
 .conteudo-container-contatos .cartao{
@@ -267,4 +267,11 @@ footer p{
 footer a{
     color: #0353A4;
     text-decoration: underline;
+}
+
+@media (min-width:500px) {
+    
+    .cabecalho{
+        
+    }
 }
