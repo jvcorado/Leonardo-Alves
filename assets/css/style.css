@@ -74,7 +74,9 @@ body{
 }
 
 .menu nav{
-    margin-left: 10px;
+    background-color: #444;
+    width: 80px;
+    text-align: center;
     
 }
 .menu nav a{
