@@ -74,7 +74,6 @@ body{
 }
 
 .menu nav{
-    background-color: #444;
     width: 80px;
     text-align: center;
     
@@ -87,8 +86,7 @@ body{
 }
 .menu .link-ativo a{
     color: rgb(255, 255, 255);
-    width: auto;
-    padding: 10px;
+    padding-bottom: 15px;
     border-bottom: 5px solid white;
   
 }
