@@ -249,6 +249,7 @@ footer{
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    border-top: 5px solid black;
 }
 footer p{
     padding-bottom:10px;
