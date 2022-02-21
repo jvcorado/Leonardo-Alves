@@ -87,7 +87,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #003559;
+    background-color: #0353A4;
     border-top: 5px solid #000000;
    
 }
@@ -272,8 +272,8 @@ button img{
 footer{
     padding: 10px;
     width: 100%;
-    color: white;
-    background-color: #0353A4;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -284,7 +284,7 @@ footer p{
     padding-bottom:10px;
 }
 footer a{
-    color: #ffffff;
+    color: #000000;
     text-decoration: underline;
 
 }
