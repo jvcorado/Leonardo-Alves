@@ -27,6 +27,7 @@ body{
     top: 0;
 }
 
+
 .cabecalho-logo{
     background-image:url(../img/WhatsApp\ Image\ 2022-02-20\ at\ 20.10.23.jpeg);
     background-repeat: no-repeat;
@@ -43,9 +44,10 @@ body{
     padding: 10px;
 }
 .cabecalho-titulo{
-    color: aqua;
-    border: 2px solid black;
-    display: none;
+    color: rgb(255, 255, 255);
+    opacity: 70%;
+    border-bottom: 5px solid black;
+    
 }
 .img-logo{
     width: 25%;
