@@ -129,8 +129,10 @@ body{
     align-self: center;
     border: none;
 }
-
-
+.cartao:last-child{
+    margin-bottom: 0;
+  
+}
 
 .conteudo-container{
     display: flex;
@@ -299,12 +301,13 @@ footer{
     justify-content: space-between;
     flex-direction: column;
     border-top: 5px solid black;
+    text-align: center;
 }
 footer p{
     padding-bottom:10px;
 }
 footer a{
-    color: #412b2b;
+    color: #0353A4;
     text-decoration: underline;
 
 }
