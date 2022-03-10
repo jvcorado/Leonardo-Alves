@@ -14,7 +14,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #0353A4;
+    background-color: #ffffff;
+    
 }
 .cabecalho{
     width: 100%;
@@ -58,7 +59,6 @@ body{
     border-radius: 50%;
     border: 5px solid white;
     margin-left: 5px;
-    margin-bottom: 80px;
     box-shadow:  2px 2px 10px rgb(80, 80, 80);
 }
 .cabecalho-conteudo{
@@ -78,7 +78,7 @@ body{
     border-top: 5px solid #003559;
 }
 .menu{
-    width: 100%;
+    width: 100vw;
     height: 60px;
 
     position: sticky;
@@ -86,15 +86,15 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: #003559;
+    justify-content: space-around;
+    background: linear-gradient(169deg, rgba(2,0,36,1) 5%, rgba(13,61,94,1) 53%, rgba(23,115,134,0.8366445916114791) 100%);
     border-bottom: 5px solid #000000;
     border-top: 5px solid white;
 }
 
 .menu nav{
     justify-self: start;
-    margin: 10px;
+    margin: 5px;
 
     width: 80px;
     text-align: center;
@@ -103,7 +103,8 @@ body{
 .menu nav a{
     color: rgb(255, 255, 255);
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 700;
+   
    
 }
 .menu .link-ativo a{
@@ -129,12 +130,13 @@ body{
     border: none;
 }
 
+
+
 .conteudo-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding:15px;
     background-color: #ffffff;
 }
 .conteudo-container-sobre{
@@ -181,8 +183,21 @@ body{
 .cartao{
     width: 100%;
     background-color: #ffffff; 
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    padding: 15px;
 }
+.cartao-alternativo{
+    background-color: #003559;
+    color: white;
+}
+.cartao-alternativo  .titulo-pagina-detalhe{
+    border-left: 5px solid #ffffff;
+    padding-left: 5px;
+}
+
+
+
+
 .cartao-subtitulo{
     color:#0353A4;
     margin-bottom:10px;
@@ -244,6 +259,11 @@ body{
     align-items: center;
     justify-content: center;
 }
+.container-conteudo{
+    background-color: #000000;
+}
+
+
 button{
     display: flex;
     width: 80%;
@@ -274,7 +294,7 @@ button img{
 
 footer{
     padding: 10px;
-    width: 100%;
+    width: 100vw;
     color: rgb(255, 255, 255);
     background-color: #003559;
     display: flex;
@@ -295,6 +315,44 @@ footer a{
 @media (min-width:500px) {
     
     .cabecalho{
+        width: 100vw;
+    }
+    .cabecalho-logo{
+        width: 100%;
+        height: 200px;
+        background-size: fill;
+    }
+    .menu{
+        width: 100vw;
+        background-color: #003559;
         
+    }
+    .menu nav a{
+        color:rgb(255, 255, 255);
+        font-size: 1.2rem;
+    }
+    .menu .link-ativo a{
+        color: rgb(255, 255, 255);
+        padding-bottom: 11px;
+    }
+    .img-logo{
+        position: sticky;
+        top: 0;
+        width: 15%;
+        margin-bottom: 180px;
+    }
+    .conteudo-container{
+        width: 80%;
+        background-color: #ffffff;
+        margin: auto;
+    }
+    .cartao{
+        align-items: center;
+        background-color: #412b2b;
+        align-items: center;
+    }
+    .cartao-img{
+        width: 90%;
+        margin-left:50px ;
     }
 }
